@@ -1,0 +1,237 @@
+@media (max-width:1999px) {
+    .menu .menu_link {
+        font-size: 17px;  
+    }
+    .menu .menu_item {
+        text-align: right;
+         padding-left: 20px;
+    }
+    .aboutus .aboutus_img {
+        box-shadow: -10px 12px 32px -14px rgba(204, 204, 204, 0.46);
+        height: 460px;
+     }
+     .contacts iframe {
+        width: 480px;
+        height: 240px;
+    }
+}
+@media (max-width:991px) {
+    nav .header_logo  {
+        width: 150px;
+    }
+    .menu .menu_link {
+        font-size: 13px;  
+    }
+    .menu .menu_item {
+        text-align: right;
+         padding-left: 20px;
+    }
+    .promo .promo_header {
+        font-size: 46px;
+        font-weight: 700; 
+    }
+    .aboutus .aboutus_img {
+        box-shadow: -10px 12px 32px -14px rgba(204, 204, 204, 0.46);
+        height: 300px;
+     }
+     .aboutus .aboutus_main img {
+       display: none;
+ }
+     .useful .useful_item_descr {
+        font-size: 13px;
+        min-height: 400px;
+    }
+    .useful .useful_item .useful_item_button {
+        height: 150px;
+        width: 150px;
+        padding: 30px;
+    }
+    .useful .useful_item .useful_item_title{
+        font-size: 12px;
+    }
+    .contacts iframe {
+        width: 400px;
+        height: 200px;
+    }
+
+}	
+@media (max-width:767px) {
+   
+  
+   
+    
+    .menu  {
+        position: absolute;
+        width: 50%;
+        height: 100vh;
+        left: -100%;
+        background-color: rgba(0,0,0,0.8);
+        transition: 0.6s all;
+        flex-direction: column;
+        align-items: center;
+        z-index: 3;
+    }
+   
+     .hamburger{
+        display: block;
+        position: fixed;
+        right: 30px;
+        top: 40px;
+        transform: translateY(-50%) ;
+        width: 25px;
+        transition: o.5s all;
+    }
+    .hamburger_active span:nth-child(1) {
+        transform: rotate(-45deg);
+        margin-bottom: -2px;
+    }
+    .hamburger_active span:nth-child(2) {
+        display: none;
+    }
+    .hamburger_active span:nth-child(3) {
+        transform: rotate(45deg);
+        margin-bottom: -2px;
+    }
+    .hamburger span {
+        display:block;
+        width: 100%;
+        height: 2px;
+        background-color: #000;
+        margin-bottom: 2px;
+        transition: 0.6s all;
+    }
+    .nav_active {
+        left: 0;    
+    }
+    
+    .mobile_logo {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        left: 30px;
+        top: 0px;
+        height: 100%;
+        z-index: 2;
+        
+    }
+    .mobile_logo .header_logo{
+        width: 140px;
+        height: 70px;
+    }
+    
+ 
+    
+    nav .header_logo_menu  {
+        display: none;
+    }
+    
+    .menu .menu_item {
+        text-align: center;
+         padding: 0;
+         padding-top: 40px;
+    }
+    .menu .menu_item .menu_link{
+        font-size: 20px;
+        color: #fff;
+      
+    }
+  
+    .promo {
+        padding: 80px 0;
+       
+    }
+    .promo .promo_header {
+        font-size: 38px;
+    }
+    .promo .promo_subheader {
+        font-size: 32px;
+        margin-top: 15px;
+        line-height: 40px;
+    }
+    .aboutus .mobile_aboutus_main_header
+{
+    display: block;
+    margin: 0;
+       padding: 10px 0 0 20px;
+       border-bottom: 2px solid rgb(245,160,42);
+      
+    line-height: 70px;
+}
+.aboutus .aboutus_main_header {
+    display: none;
+    
+}
+.aboutus .aboutus_main_text {
+    display: none;
+}
+
+.aboutus .mobile_about {
+    display: block;
+    
+    
+}
+.aboutus .mobile_about .aboutus_main_text{
+    display: block;
+    border-top: none;
+    font-size: 14px;
+    margin-top: 0;
+}
+.aboutus .aboutus_foto {
+   display: none;
+}
+.aboutus .mobile_about .aboutus_foto {
+    display: block;
+    align-items: start;
+    padding-top: 30px;
+    min-height: 400px;
+}
+.aboutus .mobile_about .aboutus_img {
+height: 250px;
+}
+.useful .mobile_useful {
+    display: flex;
+    
+}
+.useful .useful_item_descr {
+    text-align: start;
+}
+.useful .mobile_useful:nth-child(1){
+    justify-content: center;
+}
+.useful .mobile_useful_general {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.useful .useful_item_2 {
+
+    margin-top: 0;
+    margin-left: 0;
+}
+.useful .useful_item_3 {
+
+    margin-top: 0;
+   
+}
+.contacts .contacts_map {
+    display: flex;
+    justify-content: center;
+}
+}
+@media (max-width:575px) {
+    .aboutus .mobile_about .aboutus_foto {
+        display: none;
+     }
+     .useful .useful_item .useful_item_button {
+        height: 120px;
+        width: 120px;
+        
+    }
+    .useful .useful_item .useful_item_title  {
+        display: none;
+    }
+    .useful .useful_item .mobile_useful_item_title  {
+        display: block;
+        font-size: 13px;
+    }
+}
